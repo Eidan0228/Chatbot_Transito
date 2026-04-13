@@ -1,0 +1,115 @@
+{
+  "señales_de_transito": [
+    {
+      "patterns": ["alto", "señal de alto", "pare", "qué significa alto"],
+      "answer": "La señal de alto indica que el conductor debe detener completamente el vehículo antes de continuar, verificando que sea seguro avanzar."
+    },
+    {
+      "patterns": ["ceda el paso", "ceda", "qué significa ceda", "cuando debo ceder"],
+      "answer": "La señal de ceda el paso indica que debes reducir la velocidad y permitir el paso a otros vehículos que tienen prioridad."
+    },
+    {
+      "patterns": ["señales preventivas", "qué son señales amarillas", "señales de advertencia", "para qué sirven señales preventivas"],
+      "answer": "Las señales preventivas advierten sobre posibles peligros en la vía, como curvas, intersecciones o peatones. Generalmente son de color amarillo."
+    },
+    {
+      "patterns": ["señales reglamentarias", "señales rojas", "qué son señales obligatorias", "normas de señales"],
+      "answer": "Las señales reglamentarias indican obligaciones o prohibiciones, como detenerse, no girar o límites de velocidad. Deben cumplirse obligatoriamente."
+    }
+  ],
+
+  "prioridad_de_paso": [
+    {
+      "patterns": ["rotonda", "quién tiene prioridad en rotonda", "cómo funciona la rotonda", "paso en rotonda"],
+      "answer": "En una rotonda, tienen prioridad los vehículos que ya circulan dentro de ella. Los que van a ingresar deben ceder el paso."
+    },
+    {
+      "patterns": ["paso peatonal", "prioridad peatones", "quién pasa primero peatón o carro", "reglas peatones"],
+      "answer": "Los peatones siempre tienen prioridad en los pasos peatonales. El conductor debe reducir la velocidad y detenerse si es necesario."
+    },
+    {
+      "patterns": ["intersección sin señales", "quién pasa primero", "prioridad derecha", "cruce sin señal"],
+      "answer": "En intersecciones sin señalización, tiene prioridad el vehículo que viene por la derecha."
+    },
+    {
+      "patterns": ["vehículos de emergencia", "ambulancia prioridad", "policía paso", "bomberos prioridad"],
+      "answer": "Los vehículos de emergencia tienen prioridad cuando llevan sirena o luces encendidas. Debes apartarte y permitir su paso."
+    }
+  ],
+
+  "normas_de_circulacion": [
+    {
+      "patterns": ["carril derecho", "por dónde circular", "qué carril usar", "regla de carriles"],
+      "answer": "Debes circular por el carril derecho y usar el izquierdo solo para adelantar o girar, según las normas de tránsito."
+    },
+    {
+      "patterns": ["uso de direccionales", "luces intermitentes", "cómo indicar giro", "direccionales"],
+      "answer": "Las direccionales se utilizan para indicar giros o cambios de carril, permitiendo que otros conductores anticipen tus movimientos."
+    },
+    {
+      "patterns": ["adelantar", "rebasar vehículos", "cómo adelantar", "reglas de adelantamiento"],
+      "answer": "El adelantamiento debe hacerse por la izquierda, en zonas permitidas y cuando sea seguro, sin poner en riesgo a otros."
+    },
+    {
+      "patterns": ["uso del cinturón", "cinturón seguridad", "es obligatorio cinturón", "regla cinturón"],
+      "answer": "El uso del cinturón de seguridad es obligatorio para todos los ocupantes del vehículo y reduce el riesgo de lesiones en accidentes."
+    }
+  ],
+
+  "limites_de_velocidad": [
+    {
+      "patterns": ["velocidad en ciudad", "límite urbano", "cuánto se puede ir en ciudad", "velocidad máxima ciudad"],
+      "answer": "En zonas urbanas, el límite de velocidad generalmente es de 40 a 60 km/h, dependiendo de la señalización."
+    },
+    {
+      "patterns": ["velocidad en carretera", "límite autopista", "cuánto es la velocidad máxima carretera", "velocidad ruta"],
+      "answer": "En carreteras, el límite puede variar entre 60 y 100 km/h según la vía y señalización establecida."
+    },
+    {
+      "patterns": ["zona escolar velocidad", "escuela velocidad", "límite cerca escuelas", "niños carretera velocidad"],
+      "answer": "En zonas escolares, el límite suele ser de 25 km/h para proteger a los niños."
+    },
+    {
+      "patterns": ["exceso de velocidad", "qué pasa si voy rápido", "multa velocidad", "riesgos velocidad"],
+      "answer": "El exceso de velocidad aumenta el riesgo de accidentes y puede resultar en multas, pérdida de puntos o sanciones legales."
+    }
+  ],
+
+  "conduccion_defensiva": [
+    {
+      "patterns": ["qué es conducción defensiva", "manejo defensivo", "para qué sirve conducción defensiva", "definición conducción defensiva"],
+      "answer": "La conducción defensiva consiste en manejar de forma preventiva, anticipando errores de otros conductores para evitar accidentes."
+    },
+    {
+      "patterns": ["distancia de seguridad", "cuánto espacio dejar", "seguir carro distancia", "distancia entre vehículos"],
+      "answer": "Debes mantener una distancia segura con el vehículo de adelante para tener tiempo de reaccionar ante cualquier situación."
+    },
+    {
+      "patterns": ["condiciones climáticas", "manejar con lluvia", "conducción en lluvia", "precauciones clima"],
+      "answer": "En condiciones como lluvia, debes reducir la velocidad, aumentar la distancia y usar luces para mejorar la visibilidad."
+    },
+    {
+      "patterns": ["uso del celular", "puedo usar celular manejando", "teléfono conduciendo", "distracciones al volante"],
+      "answer": "El uso del celular al conducir está prohibido, ya que distrae y aumenta significativamente el riesgo de accidentes."
+    }
+  ],
+
+  "seguridad_vial": [
+    {
+      "patterns": ["seguridad vial", "qué es seguridad vial", "importancia seguridad vial", "definición seguridad vial"],
+      "answer": "La seguridad vial comprende normas y acciones destinadas a prevenir accidentes de tránsito y proteger a todos los usuarios de la vía."
+    },
+    {
+      "patterns": ["uso de casco", "casco motocicleta", "es obligatorio casco", "seguridad moto"],
+      "answer": "El uso de casco es obligatorio para motociclistas y reduce significativamente el riesgo de lesiones graves."
+    },
+    {
+      "patterns": ["niños en vehículo", "seguridad niños carro", "sillas infantiles", "cómo llevar niños"],
+      "answer": "Los niños deben viajar en sillas especiales adecuadas a su edad y tamaño para garantizar su seguridad."
+    },
+    {
+      "patterns": ["alcohol y conducción", "manejar borracho", "puedo tomar y manejar", "efectos alcohol conducción"],
+      "answer": "Conducir bajo los efectos del alcohol está prohibido, ya que afecta la capacidad de reacción y aumenta el riesgo de accidentes."
+    }
+  ]
+}
